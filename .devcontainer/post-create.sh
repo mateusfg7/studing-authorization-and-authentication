@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Setup ZSH
 mv ~/.zshrc ~/.zshrc.bak
@@ -18,4 +18,7 @@ git config --global alias.lg "log --pretty=format:'%Cred%h%Creset %C(bold)%cr%Cr
 git config --global alias.rollback "reset --soft HEAD~1"
 
 # Install PNPM
-# wget -qO- https://get.pnpm.io/install.sh | ENV="$HOME/.bashrc" SHELL="$(which bash)" bash -
+wget -qO- https://get.pnpm.io/install.sh | ENV="$HOME/.zshrc" SHELL="$(which zsh)" zsh -
+
+# Install Nest.js CLI
+pnpm add @nestjs/cli --global

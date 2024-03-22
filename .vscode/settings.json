@@ -1,8 +1,11 @@
 {
-    "terminal.integrated.defaultProfile.linux": "zsh",
-    "terminal.integrated.profiles.linux": {
-      "zsh": {
-        "path": "zsh"
-      }
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.profiles.linux": {
+    "zsh": {
+      "path": "zsh"
     }
-  }
+  },
+  "workbench.colorTheme": "Min Darker",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "fluent-icons"
+}
